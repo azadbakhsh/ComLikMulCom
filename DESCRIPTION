@@ -1,11 +1,8 @@
 Package: ComLikMulCom
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends:
-    R (>= 3.2.2)
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 5.0.1.9000
+Title: Multiple comparisons using composite likelihood
+Version: 0.1
+Authors: Mahdis Azadbakhsh, Xin Gao, Hanna Jankowski
+Description: Multiple hypothesis testing \eqn{H_0 :C\beta = 0}, based on composite likelihood inference for 
+clustered data, with common covariance structure across the clusters. The critical value is based on multivariate 
+normal quantile, using the R-package \code{multcomp} by Hothorn, et.al.
+Depends:  R (>= 3.2.2)
