@@ -2,7 +2,7 @@ Package: ComLikMulCom
 Title: Multiple comparisons using composite likelihood
 Version: 0.1
 Authors: Mahdis Azadbakhsh, Xin Gao, Hanna Jankowski
-Description: Multiple hypothesis testing \eqn{H_0 :C\beta = 0}, based on composite likelihood inference for 
+Description: Multiple hypothesis testing, based on composite likelihood inference for 
 clustered data, with common covariance structure across the clusters. The critical value is based on multivariate 
-normal quantile, using the R-package \code{multcomp} by Hothorn, et.al.
+normal quantile, using the R-package multcomp by Hothorn, et.al.
 Depends:  R (>= 3.2.2)
